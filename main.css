@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: tomato;
+}
+
+#container {
+    width: 402px;
+    height: 402px;
+    border: 1px solid black;
+    display: grid;
+    background-color: white;
+}
+
+#container .grid {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#eight, #sixteen, #thirtytwo {
+    width: 75px;
+    height: 50px;
+    border-radius: 0px !important;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#clear {
+    width: 245px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 0px !important;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#clear:hover {
+    background-color: rgb(255, 219, 213);
+    transition: all 300ms ease;
+}
+
+#eight:hover {
+    background-color: rgb(255, 219, 213);
+    transition: all 300ms ease;
+}
+
+#sixteen:hover {
+    background-color: rgb(255, 219, 213);
+    transition: all 300ms ease;
+}
+
+#thirtytwo:hover {
+    background-color: rgb(255, 219, 213);
+    transition: all 300ms ease;
+}
+
+#clear:active {
+    transform: scale(0.90);
+}
+
+#eight:active {
+    transform: scale(0.90);
+}
+
+#sixteen:active {
+    transform: scale(0.90);
+}
+
+#thirtytwo:active {
+    transform: scale(0.90);
+}
+
+
+
